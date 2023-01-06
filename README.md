@@ -1,6 +1,6 @@
-# New Mac Setup
+# Setup mac
 
-## General Settings
+## General settings
 
 - general -> dark mode
 - trackpad -> tap to click, increase tracking speed, turn off force click
@@ -26,29 +26,28 @@
   - show path bar
 - change all to show items as list
 
-## Dock & Menu Bar Preferences
+## Dock and menu bar preferences
 
 - remove unnecessary apps including downloads, but leave system preferences
 - enable automatically hide and show dock
 - disable "show recent applications in Dock"
 - battery -> show percentage
 
-## Keyboard Shortcuts
+## Keyboard shortcuts
 
 - remove "omw" from text
 - shortcuts > launchpad & dock > toggle "dock hiding on/off" in shortcuts -> launchpad & dock
 
-## Download apps & extensions
+## Apps
+### Core
+- Chat: Discord
+- Browser: Brave
+- Editors: vscode and vscodium (for hotkey switching between these), one is for notes one is for code
+- Input format: osprette mx keyboard + vim keybindings (qwerty pleb but looking at hands down layout)
+- Terminal: wezterm + zellij
 
-1. [Discord](https://discord.com/download)
-2. [Brave](https://brave.com/download/)
-   1. [GameStop Wallet](https://chrome.google.com/webstore/detail/gamestop-wallet/pkkjjapmlcncipeecdmlhaipahfdphkd)
-   2. [Metamask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
-   3. [Bitwarden](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
-   4. [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
-3. [Visual Studio Code](https://code.visualstudio.com/download)
-4. [Docker Desktop](https://docs.docker.com/desktop/install/mac-install/)
-5. Download Trezor Suite or Trezor Bridge
+### Other
+- Docker desktop (official)
 
 ## Configure Brave
 
@@ -63,7 +62,6 @@
 - user settings: set fish path in integrated.profiles.osx and select as default profile
 - user settings: hide minimap
 - copy keybindings.json and settings.json
-- click bell bottom right corner and turn on do not disturb for alerts
 - remove keybinding for "close open window"
 
 ### Install extensions
@@ -94,9 +92,8 @@
 7. `fish_add_path /Applications/Visual Studio Code.app/Contents/Resources/app/bin` (add vscode to path)
     see [[reference.shell]] for more
 8. [install fisher](https://github.com/jorgebucaran/fisher)
-9. [install nvm](https://github.com/jorgebucaran/nvm.fish)
-10. copy .config/fish/config.fish with artifactory env vars
-11. `npm install -g pnpm` install pnpm
+9. [install nvm](https://github.com/jorgebucaran/nvm.fish) (TODO: use pnpm instead)
+10. `npm install -g pnpm` install pnpm
 
 ## Copy over config files
 
