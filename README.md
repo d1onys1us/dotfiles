@@ -32,6 +32,7 @@
 - enable automatically hide and show dock
 - disable "show recent applications in Dock"
 - battery -> show percentage
+- now playing -> don't show in menu bar
 
 ## Keyboard shortcuts
 
@@ -45,6 +46,8 @@
 - Editors: vscode and vscodium (for hotkey switching between these), one is for notes one is for code
 - Input format: osprette mx keyboard + vim keybindings (qwerty pleb but looking at hands down layout)
 - Terminal: wezterm + zellij
+- navigation: raycast
+- music: spotify
 
 ### Other
 - Docker desktop (official)
