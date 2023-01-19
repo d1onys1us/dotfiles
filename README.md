@@ -11,6 +11,9 @@
 - system preferences -> view -> in alphabetical order
 - edit widgets, remove all except screen usage and calendar
 - bluetooth > show in menu bar
+- remove unnecessary apps including downloads, but leave system preferences
+- enable automatically hide and show dock
+- disable "show recent applications in Dock"
 
 ## Finder preferences
 
@@ -26,18 +29,17 @@
   - show path bar
 - change all to show items as list
 
-## Dock and menu bar preferences
+## Menu bar preferences
 
-- remove unnecessary apps including downloads, but leave system preferences
-- enable automatically hide and show dock
-- disable "show recent applications in Dock"
 - battery -> show percentage
 - now playing -> don't show in menu bar
+- hide zoom from menu bar
 
 ## Keyboard shortcuts
 
 - remove "omw" from text
 - shortcuts > launchpad & dock > toggle "dock hiding on/off" in shortcuts -> launchpad & dock
+- uses raycast for windows and hotkeys
 
 ## Apps
 ### Core
@@ -48,9 +50,8 @@
 - Terminal: wezterm + zellij
 - navigation: raycast
 - music: spotify
-
-### Other
-- Docker desktop (official)
+- meetings: zoom, discord
+- docker: docker desktop
 
 ## Configure Brave
 
@@ -67,12 +68,11 @@
 - copy keybindings.json and settings.json
 - remove keybinding for "close open window"
 
-### Install extensions
+### VScode extensions
 
 - Peacock
 - GitLens -> and configure
 - Dendron
-- Live Share
 - Fish
   - set fish path in settings to /opt/homebrew/bin/fish
 - Copilot (stable)
